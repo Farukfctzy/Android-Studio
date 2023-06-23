@@ -1,0 +1,33 @@
+.class public final Lcom/samin/project/R;
+.super Ljava/lang/Object;
+.source "R.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/samin/project/R$attr;,
+        Lcom/samin/project/R$drawable;,
+        Lcom/samin/project/R$id;,
+        Lcom/samin/project/R$layout;,
+        Lcom/samin/project/R$raw;,
+        Lcom/samin/project/R$string;,
+        Lcom/samin/project/R$style;
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 4
+
+    .prologue
+    .line 44
+    move-object v0, p0
+
+    move-object v2, v0
+
+    invoke-direct {v2}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
